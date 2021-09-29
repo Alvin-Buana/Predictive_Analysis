@@ -78,9 +78,9 @@ Dalam gambar ini, X merupakan fitur dari sebuah kolom , μ adalah mean dari data
 
 
 ## Modeling
-Pada subab sebelumnya, telah disampaikan bahwa ada empat model machine learning yang akan digunakan sebagai solusi yaitu  ***Random Forest** , **XGBoosting** ,**Logistic Regression*** , dan ***Decision Tree***. dalam tahap ini, saya tidak melakukan *hyperparameter tuning* melainkan saya ingin menguji bagaimana performa empat model ini tanpa adanya perlakuan *hyperparameter tuning*. Untuk menguji performa model saya membuat suatu fungsi dimana fungsi tersebut akan melatih model yang sudah dibuat, lalu melakukan prediksi, dan membandingkan hasil model tersebut dengan menghitung berapa lama model ini dilatih dan bagaimana hasil akurasi dari model tersebut. Hasil akurasi model tersebut juga dihitung melalui metrik yang akan dibahas pada subab selanjutnya.
+Pada subab sebelumnya, telah disampaikan bahwa ada empat model machine learning yang akan digunakan sebagai solusi yaitu  ***Random Forest** , **XGBoosting*** , dan ***Decision Tree***. dalam tahap ini, saya tidak melakukan *hyperparameter tuning* melainkan saya ingin menguji bagaimana performa empat model ini tanpa adanya perlakuan *hyperparameter tuning*. Untuk menguji performa model saya membuat suatu fungsi dimana fungsi tersebut akan melatih model yang sudah dibuat, lalu melakukan prediksi, dan membandingkan hasil model tersebut dengan menghitung berapa lama model ini dilatih dan bagaimana hasil akurasi dari model tersebut. Hasil akurasi model tersebut juga dihitung melalui metrik yang akan dibahas pada subab selanjutnya.
 
-Dari hasil pelatihan, terbukti bahwa ada dua solusi yang sangat baik dalam menjawab masalah ini. Kedua model tersebut adalah ***XGBoosting*** dan ***Logistic Regression***. Hal ini dapat disimpulkan karena kedua model ini mencapai akurasi tertinggi dalam prediksi yaitu 88%. Yang membedakan kedua model ini hanya dalam waktu pelatihan. 
+Dari hasil pelatihan, terbukti bahwa ada satu solusi yang sangat baik dalam menjawab masalah ini. Kedua model tersebut adalah ***XGBoosting***. Hal ini dapat disimpulkan karena kedua model ini mencapai akurasi tertinggi dalam prediksi yaitu 88%. 
 
 ## Evaluation
 
